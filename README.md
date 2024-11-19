@@ -36,17 +36,68 @@ For example, when testing a queue, a property might be that the size of the queu
 
 ## Property Tests
 
-### Queues
+### 1. **Numbers**:
+- **Arithmetic Operations**:
+  - Addition (`+`)
+  - Subtraction (`-`)
+  - Multiplication (`*`)
+  - Division (`/`)
+  - Floor Division (`//`)
+  - Modulus (`%`)
+  - Exponentiation (`**`)
+  
+### 2. **Strings**:
+- **Basic Operations**:
+  - Concatenation (`+`)
+  - Repetition (`*`)
+  - Slicing (`str[start:end]`)
+  - Length (`len()`)
+  
+### 3. **Lists**:
+- **Basic Operations**:
+  - Indexing (`list[index]`)
+  - Slicing (`list[start:end]`)
+  - Length (`len()`)
+  - Adding elements (`list.append()`, `list.insert()`)
+  - Removing elements (`list.remove()`, `list.pop()`)
+  - Modifying elements (`list[index] = value`)
+  - Concatenation (`+`)
+  - Repetition (`*`)
+- **List Methods**:
+  - Sort (`list.sort()`)
+  - Reverse (`list.reverse()`)
+  - Extend (`list.extend()`)
+  - Copy (`list.copy()`)
+  - Count occurrences (`list.count()`)
+  - Find index (`list.index()`)
+  - Clear list (`list.clear()`)
+  
+### 4. **Stacks** (often implemented with lists in Python):
+- **Basic Operations**:
+  - Push (add an element to the stack): `stack.append()`
+  - Pop (remove and return the top element): `stack.pop()`
+  - Peek (view the top element without removing it): `stack[-1]`
+  - Check if empty: `not stack` or `len(stack) == 0`
+  - Size (number of elements in stack): `len(stack)`
+  - Clear stack: `stack.clear()`
 
-- **Test if a queue is empty after a pop from an empty queue**.
-- **Test if enqueue followed by dequeue returns the correct element**.
-- **Test if the queue maintains the correct size after multiple enqueue and dequeue operations**.
-- **Test for commutative property for queue reversals**.
-- **Test if the queue's size is always non-negative**.
+### Operations on Numbers
 
-[See the full list of queue property tests](property-tests/queues.md)
+- Addition
+- Subst
+- **Test if dividing by a non-zero number gives the correct result**.
 
-### Lists
+[See the full list of number property tests](property-tests/numbers.md)
+
+### Operations on Strings
+
+- **Test if string reversal followed by another reversal results in the original string**.
+- **Test if string concatenation is associative**.
+- **Test if concatenating an empty string with another string results in the original string**.
+
+[See the full list of string property tests](property-tests/strings.md)
+
+### Operations on Lists
 
 - **Test if list reversal followed by another reversal results in the original list**.
 - **Test if list concatenation is associative**.
@@ -55,21 +106,15 @@ For example, when testing a queue, a property might be that the size of the queu
 
 [See the full list of list property tests](property-tests/lists.md)
 
-### Strings
+### Operations on Stacks
 
-- **Test if string reversal followed by another reversal results in the original string**.
-- **Test if string concatenation is associative**.
-- **Test if concatenating an empty string with another string results in the original string**.
+- **Test if a queue is empty after a pop from an empty queue**.
+- **Test if enqueue followed by dequeue returns the correct element**.
+- **Test if the queue maintains the correct size after multiple enqueue and dequeue operations**.
+- **Test for commutative property for queue reversals**.
+- **Test if the queue's size is always non-negative**.
 
-[See the full list of string property tests](property-tests/strings.md)
-
-### Numbers
-
-- **Test if addition is commutative**.
-- **Test if multiplication is associative**.
-- **Test if dividing by a non-zero number gives the correct result**.
-
-[See the full list of number property tests](property-tests/numbers.md)
+[See the full list of queue property tests](property-tests/queues.md)
 
 ### More Tests
 
