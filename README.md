@@ -131,14 +131,9 @@ Slicing extracts a sub-string from a given string.
 Length calculates the number of characters in a string.
 
 - **Distributive**: No.  Length doesn’t distribute over concatenation or slicing: $len(s_1 + s_2) = len(s_1) + len(s_2)$, but this isn’t distribution in a strict sense.
-    
-- **Identity**: Yes.  len(ϵ)=0$len(\epsilon) = 0.
-    
-- **Idempotent**: Yes.  
-    Reapplying the length operation gives the same result: len(len(s))=len(s)len(len(s)) = len(s).
-    
-- **Closure**: Yes.  
-    The length of a string is always a non-negative integer.
+- **Identity**: Yes.  $len(\epsilon) = 0$.
+- **Idempotent**: Yes.  Reapplying the length operation gives the same result: $len(len(s)) = len(s)$.
+- **Closure**: Yes.  The length of a string is always a non-negative integer.
         
 
   
@@ -217,7 +212,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2OTIyMjc4NCwxODAzMTc0MjIyLC0xOT
+eyJoaXN0b3J5IjpbLTMwNzYzODk2NSwxODAzMTc0MjIyLC0xOT
 AzNjA0MTAxLC02NjQ1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgx
 NTQzOCwxMjk4Njk4MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMT
 c0NTY3NTU2NF19
