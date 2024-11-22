@@ -40,31 +40,19 @@ For example, when testing a queue, a property might be that the size of the queu
 
 #### Addition (+)
 
-1. **Commutative**: Yes.  
-   $$a + b = b + a$$.
+1. **Commutative**: $$a + b = b + a$$.
 
-2. **Associative**: Yes.  
-   $$(a + b) + c = a + (b + c)$$.
+2. **Associative**: $$(a + b) + c = a + (b + c)$$.
+   
+4. **Identity**: The identity element is 0: $$a + 0 = a$$.
 
-4. **Identity**: Yes.  
-   The identity element is 0: $$a + 0 = a$$.
-
-5. **Inverse**: Yes.  
-   For any $$a$$, the additive inverse is $$-a$$: $$a + (-a) = 0$$.
+5. **Inverse**: For any $$a$$, the additive inverse is $$-a$$: $$a + (-a) = 0$$.
 
 6. **Idempotent**: No.  
    $$a + a \neq a$$ unless $$a = 0$$.
 
 7. **Closure**: Yes.  
    For any $$a, b$$ in the set of real numbers $$\mathbb{R}$$, $$a + b$$ is also in $$\mathbb{R}$$.
-
-8. **Absorption**: No.  
-   There is no "absorbing" element for addition.
-
-9. **Symmetric**: No.  
-   Symmetry is not a property of addition.
-
-10. **Transitive**: Not applicable to addition as a binary operation.
 
 #### Subtraction (-)
 
@@ -273,5 +261,5 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ3MDc0MTEzNF19
+eyJoaXN0b3J5IjpbLTIwODYyNTE2MzhdfQ==
 -->
