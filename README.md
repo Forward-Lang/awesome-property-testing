@@ -44,7 +44,6 @@ For example, when testing a queue, a property might be that the size of the queu
 	- **Associative**: $(a + b) + c = a + (b + c)$.  
 	- **Identity**: The identity element is 0: $a + 0 = a$.
 	- **Inverse**: For any $a$, the additive inverse is $-a$: $a + (-a) = 0$.
-	- **Idempotent**: No.  $a + a \neq a$ unless $a = 0$.
 	- **Closure**: Yes.  For any $a, b$ in the set of real numbers $\mathbb{R}$, $a + b$ is also in $\mathbb{R}$.
 - Subtraction (`-`)
 	- **Commutative**: No.  $a - b \neq b - a$ in general.
@@ -194,7 +193,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTczMjM0OSwxODAzMTc0MjIyLC0xOT
+eyJoaXN0b3J5IjpbMjAxNjUzMzE3MCwxODAzMTc0MjIyLC0xOT
 AzNjA0MTAxLC02NjQ1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgx
 NTQzOCwxMjk4Njk4MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMT
 c0NTY3NTU2NF19
