@@ -135,9 +135,6 @@ For example, when testing a queue, a property might be that the size of the queu
 
 ### Operations on Strings
 
-- **Test if string reversal followed by another reversal results in the original string**.
-- **Test if string concatenation is associative**.
-- **Test if concatenating an empty string with another string results in the original string**.
 
 [See the full list of string property tests](property-tests/strings.md)
 
@@ -164,8 +161,6 @@ For example, when testing a queue, a property might be that the size of the queu
 
 - We will continue to add tests for additional data structures and algorithms over time. Stay tuned for more!
 
-[See more tests here](property-tests/more_tests.md)
-
 ## Popular Property Testing Libraries
 
 Here are some popular property testing libraries that can help you get started in various programming languages:
@@ -179,7 +174,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMj
-k4Njk4MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NTY3NTU2
-NF19
+eyJoaXN0b3J5IjpbLTY2NDU5ODI0MSwxNjQ0NTY2NjYxLC0xMj
+A2ODE1NDM4LDEyOTg2OTgzNCw2ODU3NTQ5NzksMTMxNjgzOTY2
+NiwxNzQ1Njc1NTY0XX0=
 -->
