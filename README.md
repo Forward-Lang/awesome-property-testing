@@ -70,29 +70,14 @@ For example, when testing a queue, a property might be that the size of the queu
 
 #### Division (/)
 
-1. **Commutative**: No.  
-   $a / b \neq b / a$ in general.
-
-2. **Associative**: No.  
-   $(a / b) / c \neq a / (b / c)$.
-
-3. **Distributive**: No.  
-   Division does not distribute over addition or subtraction.
-
-4. **Identity**: Yes.  
-   Dividing by 1 does not change the value: $a / 1 = a$.
-
-5. **Inverse**: Yes (for nonzero elements).  
-   Division is multiplication by the reciprocal: $a / b = a \cdot (1/b)$, assuming $b \neq 0$.
-
-6. **Idempotent**: No.  
-   $a / a = 1$, so the result is not $a$.
-
-7. **Closure**: Yes (if excluding division by 0).  
-   For $a, b \in \mathbb{R}$ and $b \neq 0$, $a / b \in \mathbb{R}$.
-
-9. **Symmetric**: No.  
-   Division is not symmetric because $a / b \neq b / a$.
+- **Commutative**: No.  $a / b \neq b / a$ in general.
+- **Associative**: No.  $(a / b) / c \neq a / (b / c)$.
+- **Distributive**: No.  Division does not distribute over addition or subtraction.
+- **Identity**: Yes.  Dividing by 1 does not change the value: $a / 1 = a$.
+- **Inverse**: Yes (for nonzero elements).  Division is multiplication by the reciprocal: $a / b = a \cdot (1/b)$, assuming $b \neq 0$.
+- **Idempotent**: No.  $a / a = 1$, so the result is not $a$.
+- **Closure**: Yes (if excluding division by 0).  For $a, b \in \mathbb{R}$ and $b \neq 0$, $a / b \in \mathbb{R}$.
+- **Symmetric**: No.  Division is not symmetric because $a / b \neq b / a$.
 
 ---
 
@@ -209,6 +194,6 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NT
-Y3NTU2NF19
+eyJoaXN0b3J5IjpbMTI5ODY5ODM0LDY4NTc1NDk3OSwxMzE2OD
+M5NjY2LDE3NDU2NzU1NjRdfQ==
 -->
