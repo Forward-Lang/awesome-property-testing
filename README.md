@@ -98,6 +98,8 @@ For example, when testing a queue, a property might be that the size of the queu
   - Repetition (`*`)
   - Slicing (`str[start:end]`)
   - Length (`len()`)
+
+
   
 ### 3. **Lists**:
 - **Basic Operations**:
@@ -174,7 +176,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDU5ODI0MSwxNjQ0NTY2NjYxLC0xMj
-A2ODE1NDM4LDEyOTg2OTgzNCw2ODU3NTQ5NzksMTMxNjgzOTY2
-NiwxNzQ1Njc1NTY0XX0=
+eyJoaXN0b3J5IjpbLTE5MDM2MDQxMDEsLTY2NDU5ODI0MSwxNj
+Q0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2OTgzNCw2ODU3NTQ5
+NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
 -->
