@@ -122,15 +122,9 @@ Slicing extracts a sub-string from a given string.
 
 - **Commutative**: No.  The order of indices matters: $s[1:3] \neq s[3:1]$ (and reversing indices is often invalid).
 - **Identity**: Yes.  The identity slice is $[:]$, which returns the whole string: $s[:] = s$.
-
-- **Inverse**: No.  
-    Slicing cannot be reversed unless the original context is known.
-    
-- **Idempotent**: Yes.  
-    Reapplying the same slice gives the same result: s[1:3][0:2]=s[1:3]s[1:3][0:2] = s[1:3].
-    
-- **Closure**: Yes.  
-    A slice of a string is always a string.
+- **Inverse**: No.  Slicing cannot be reversed unless the original context is known.
+- **Idempotent**: Yes.  Reapplying the same slice gives the same result: $s[1:3][0:2] = s[1:3]$.
+- **Closure**: Yes.  A slice of a string is always a string.
         
 ### **4. Length (len(s)len(s))**
 
@@ -225,7 +219,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3MDE3MjMxOSwtMTkwMzYwNDEwMSwtNj
+eyJoaXN0b3J5IjpbMTgwMzE3NDIyMiwtMTkwMzYwNDEwMSwtNj
 Y0NTk4MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5
 ODM0LDY4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ
 ==
