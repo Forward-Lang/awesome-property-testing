@@ -61,7 +61,6 @@ For example, when testing a queue, a property might be that the size of the queu
 	- **Absorption**: Yes.  The absorbing element is 0: $a \cdot 0 = 0$.
 - Division (`/`)
 	- **Commutative**: No.  $a / b \neq b / a$ in general.
-	- **Associative**: No.  $(a / b) / c \neq a / (b / c)$.
 	- **Distributive**: No.  Division does not distribute over addition or subtraction.
 	- **Identity**: Yes.  Dividing by 1 does not change the value: $a / 1 = a$.
 	- **Inverse**: Yes (for nonzero elements).  Division is multiplication by the reciprocal: $a / b = a \cdot (1/b)$, assuming $b \neq 0$.
@@ -187,8 +186,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0NDc1OTYxOCwxNTM3Mzg2MDMxLDIwMT
-Y1MzMxNzAsMTgwMzE3NDIyMiwtMTkwMzYwNDEwMSwtNjY0NTk4
-MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5ODM0LD
-Y4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ==
+eyJoaXN0b3J5IjpbLTEwMjE5OTM5MzMsMTUzNzM4NjAzMSwyMD
+E2NTMzMTcwLDE4MDMxNzQyMjIsLTE5MDM2MDQxMDEsLTY2NDU5
+ODI0MSwxNjQ0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2OTgzNC
+w2ODU3NTQ5NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
 -->
