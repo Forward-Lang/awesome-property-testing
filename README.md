@@ -107,7 +107,7 @@ For example, when testing a queue, a property might be that the size of the queu
     
 ### **2. Repetition (\∗\*)**
 
-Repetition creates a new string by repeating a base string ss nn-times (e.g., s∗ns * n).
+Repetition creates a new string by repeating a base string $s$ $n$-times (e.g., $s * n$).
 
 - **Commutative**: No.  
     s∗n≠n∗ss * n \neq n * s.  
@@ -192,24 +192,12 @@ Length calculates the number of characters in a string.
 - **Identity**: Yes.  
     len(ϵ)=0len(\epsilon) = 0.
     
-- **Inverse**: No.  
-    There’s no inverse operation for length.
-    
 - **Idempotent**: Yes.  
     Reapplying the length operation gives the same result: len(len(s))=len(s)len(len(s)) = len(s).
     
 - **Closure**: Yes.  
     The length of a string is always a non-negative integer.
-    
-- **Absorption**: No.  
-    There’s no absorbing element for length.
-    
-- **Symmetric**: Not applicable.  
-    Symmetry doesn’t apply to length.
-    
-- **Transitive**: Not applicable.  
-    Transitivity doesn’t apply to length.
-    
+        
 
   
 ### 3. **Lists**:
@@ -287,8 +275,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODMyMjcwNTAsLTE5MDM2MDQxMDEsLT
-Y2NDU5ODI0MSwxNjQ0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2
-OTgzNCw2ODU3NTQ5NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX
-0=
+eyJoaXN0b3J5IjpbMTQ1OTgwMTgwMiwtMTkwMzYwNDEwMSwtNj
+Y0NTk4MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5
+ODM0LDY4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ
+==
 -->
