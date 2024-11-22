@@ -118,20 +118,11 @@ Repetition creates a new string by repeating a base string $s$ $n$-times (e.g., 
         
 ### **3. Slicing ([start:end])**
 
-Slicing extracts a substring from a given string.
+Slicing extracts a sub-string from a given string.
 
-- **Commutative**: No.  
-    The order of indices matters: s[1:3]≠s[3:1]s[1:3] \neq s[3:1] (and reversing indices is often invalid).
-    
-- **Associative**: No.  
-    Nesting slices doesn’t always give the same result as a single slice.
-    
-- **Distributive**: No.  
-    Slicing doesn’t distribute over concatenation or repetition.
-    
-- **Identity**: Yes.  
-    The identity slice is [:][:], which returns the whole string: s[:]=ss[:] = s.
-    
+- **Commutative**: No.  The order of indices matters: $s[1:3] \neq s[3:1]$ (and reversing indices is often invalid).
+- **Identity**: Yes.  The identity slice is $[:]$, which returns the whole string: $s[:] = s$.
+
 - **Inverse**: No.  
     Slicing cannot be reversed unless the original context is known.
     
@@ -140,8 +131,7 @@ Slicing extracts a substring from a given string.
     
 - **Closure**: Yes.  
     A slice of a string is always a string.
-    
-    
+        
 ### **4. Length (len(s)len(s))**
 
 Length calculates the number of characters in a string.
@@ -235,7 +225,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjkxNzIzNTYwLC0xOTAzNjA0MTAxLC02Nj
-Q1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMjk4Njk4
-MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NTY3NTU2NF19
+eyJoaXN0b3J5IjpbLTY3MDE3MjMxOSwtMTkwMzYwNDEwMSwtNj
+Y0NTk4MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5
+ODM0LDY4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ
+==
 -->
