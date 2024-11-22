@@ -40,41 +40,37 @@ For example, when testing a queue, a property might be that the size of the queu
 
 #### Addition (+)
 
-1. **Commutative**: $$a + b = b + a$$.
-
-2. **Associative**: $$(a + b) + c = a + (b + c)$$.
-   
-4. **Identity**: The identity element is 0: $$a + 0 = a$$.
-
-5. **Inverse**: For any $$a$$, the additive inverse is $$-a$$: $$a + (-a) = 0$$.
-
-6. **Idempotent**: No.  
+- **Commutative**: $$a + b = b + a$$.
+- **Associative**: $$(a + b) + c = a + (b + c)$$.  
+- **Identity**: The identity element is 0: $$a + 0 = a$$.
+- **Inverse**: For any $$a$$, the additive inverse is $$-a$$: $$a + (-a) = 0$$.
+- **Idempotent**: No.  
    $$a + a \neq a$$ unless $$a = 0$$.
 
-7. **Closure**: Yes.  
+- **Closure**: Yes.  
    For any $$a, b$$ in the set of real numbers $$\mathbb{R}$$, $$a + b$$ is also in $$\mathbb{R}$$.
 
 #### Subtraction (-)
 
-1. **Commutative**: No.  
+- **Commutative**: No.  
    $$a - b \neq b - a$$ in general.
 
-2. **Associative**: No.  
+- **Associative**: No.  
    $$(a - b) - c \neq a - (b - c)$$.
 
-4. **Identity**: Yes.  
+- **Identity**: Yes.  
    The identity element is 0: $$a - 0 = a$$.
 
-5. **Inverse**: Yes.  
+- **Inverse**: Yes.  
    Subtraction is essentially addition with the additive inverse: $$a - b = a + (-b)$$.
 
-6. **Idempotent**: No.  
+- **Idempotent**: No.  
    $$a - a = 0$$, so the result is not $$a$$.
 
-7. **Closure**: Yes.  
+- **Closure**: Yes.  
    For any $$a, b$$ in $$\mathbb{R}$$, $$a - b$$ is in $$\mathbb{R}$$.
 
-9. **Symmetric**: No.  
+- **Symmetric**: No.  
    Subtraction is not symmetric because $$a - b \neq b - a$$.
 
 #### Multiplication (\(*\))
@@ -249,5 +245,5 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0NTY3NTU2NF19
+eyJoaXN0b3J5IjpbMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
 -->
