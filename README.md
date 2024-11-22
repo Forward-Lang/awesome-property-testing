@@ -40,59 +40,59 @@ For example, when testing a queue, a property might be that the size of the queu
 
 #### Addition (+)
 
-- **Commutative**: $$a + b = b + a$$.
-- **Associative**: $$(a + b) + c = a + (b + c)$$.  
-- **Identity**: The identity element is 0: $$a + 0 = a$$.
-- **Inverse**: For any $$a$$, the additive inverse is $-a$: $a + (-a) = 0$.
-- **Idempotent**: No.  $$a + a \neq a$$ unless $$a = 0$$.
-- **Closure**: Yes.  For any $$a, b$$ in the set of real numbers $$\mathbb{R}$$, $$a + b$$ is also in $$\mathbb{R}$$.
+- **Commutative**: $a + b = b + a$.
+- **Associative**: $(a + b) + c = a + (b + c)$.  
+- **Identity**: The identity element is 0: $a + 0 = a$.
+- **Inverse**: For any $a$, the additive inverse is $-a$: $a + (-a) = 0$.
+- **Idempotent**: No.  $a + a \neq a$ unless $a = 0$.
+- **Closure**: Yes.  For any $a, b$ in the set of real numbers $\mathbb{R}$, $a + b$ is also in $\mathbb{R}$.
 
 #### Subtraction (-)
 
-- **Commutative**: No.  $$a - b \neq b - a$$ in general.
-- **Associative**: No.  $$(a - b) - c \neq a - (b - c)$$.
-- **Identity**: Yes.  The identity element is 0: $$a - 0 = a$$.
-- **Inverse**: Yes.  Subtraction is essentially addition with the additive inverse: $$a - b = a + (-b)$$.
-- **Idempotent**: No.  $$a - a = 0$$, so the result is not $$a$$.
-- **Closure**: Yes.  For any $$a, b$$ in $$\mathbb{R}$$, $$a - b$$ is in $$\mathbb{R}$$.
-- **Symmetric**: No.  Subtraction is not symmetric because $$a - b \neq b - a$$.
+- **Commutative**: No.  $a - b \neq b - a$ in general.
+- **Associative**: No.  $(a - b) - c \neq a - (b - c)$.
+- **Identity**: Yes.  The identity element is 0: $a - 0 = a$.
+- **Inverse**: Yes.  Subtraction is essentially addition with the additive inverse: $a - b = a + (-b)$.
+- **Idempotent**: No.  $a - a = 0$, so the result is not $a$.
+- **Closure**: Yes.  For any $a, b$ in $\mathbb{R}$, $a - b$ is in $\mathbb{R}$.
+- **Symmetric**: No.  Subtraction is not symmetric because $a - b \neq b - a$.
 
 #### Multiplication (\(*\))
 
-- **Commutative**: Yes.  $$a \cdot b = b \cdot a$$.
-- **Associative**: Yes.  $$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$.
-- **Distributive**: Yes (over addition and subtraction).  $$a \cdot (b + c) = a \cdot b + a \cdot c$$.
-- **Identity**: Yes.  The identity element is 1: $$a \cdot 1 = a$$.
-- **Inverse**: Yes (for nonzero elements).  The multiplicative inverse of $$a \neq 0$$ is $$1/a$$: $$a \cdot (1/a) = 1$$.
-- **Idempotent**: No.  $$a \cdot a \neq a$$ unless $$a = 0$$ or $$a = 1$$.
-- **Closure**: Yes.  For $$a, b \in \mathbb{R}$$, $$a \cdot b \in \mathbb{R}$$.
-- **Absorption**: Yes.  The absorbing element is 0: $$a \cdot 0 = 0$$.
+- **Commutative**: Yes.  $a \cdot b = b \cdot a$.
+- **Associative**: Yes.  $(a \cdot b) \cdot c = a \cdot (b \cdot c)$.
+- **Distributive**: Yes (over addition and subtraction).  $a \cdot (b + c) = a \cdot b + a \cdot c$.
+- **Identity**: Yes.  The identity element is 1: $a \cdot 1 = a$.
+- **Inverse**: Yes (for nonzero elements).  The multiplicative inverse of $a \neq 0$ is $1/a$: $a \cdot (1/a) = 1$.
+- **Idempotent**: No.  $a \cdot a \neq a$ unless $a = 0$ or $a = 1$.
+- **Closure**: Yes.  For $a, b \in \mathbb{R}$, $a \cdot b \in \mathbb{R}$.
+- **Absorption**: Yes.  The absorbing element is 0: $a \cdot 0 = 0$.
 
 #### Division (/)
 
 1. **Commutative**: No.  
-   $$a / b \neq b / a$$ in general.
+   $a / b \neq b / a$ in general.
 
 2. **Associative**: No.  
-   $$(a / b) / c \neq a / (b / c)$$.
+   $(a / b) / c \neq a / (b / c)$.
 
 3. **Distributive**: No.  
    Division does not distribute over addition or subtraction.
 
 4. **Identity**: Yes.  
-   Dividing by 1 does not change the value: $$a / 1 = a$$.
+   Dividing by 1 does not change the value: $a / 1 = a$.
 
 5. **Inverse**: Yes (for nonzero elements).  
-   Division is multiplication by the reciprocal: $$a / b = a \cdot (1/b)$$, assuming $$b \neq 0$$.
+   Division is multiplication by the reciprocal: $a / b = a \cdot (1/b)$, assuming $b \neq 0$.
 
 6. **Idempotent**: No.  
-   $$a / a = 1$$, so the result is not $$a$$.
+   $a / a = 1$, so the result is not $a$.
 
 7. **Closure**: Yes (if excluding division by 0).  
-   For $$a, b \in \mathbb{R}$$ and $$b \neq 0$$, $$a / b \in \mathbb{R}$$.
+   For $a, b \in \mathbb{R}$ and $b \neq 0$, $a / b \in \mathbb{R}$.
 
 9. **Symmetric**: No.  
-   Division is not symmetric because $$a / b \neq b / a$$.
+   Division is not symmetric because $a / b \neq b / a$.
 
 ---
 
