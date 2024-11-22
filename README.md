@@ -36,7 +36,147 @@ For example, when testing a queue, a property might be that the size of the queu
 
 ## Property Tests
 
-### 1. **Numbers**:
+### Numbers
+
+#### Addition (+)
+
+1. **Commutative**: Yes.  
+   $$a + b = b + a$$.
+
+2. **Associative**: Yes.  
+   $$(a + b) + c = a + (b + c)$$.
+
+3. **Distributive**: No (not directly relevant on its own).
+
+4. **Identity**: Yes.  
+   The identity element is 0: $$a + 0 = a$$.
+
+5. **Inverse**: Yes.  
+   For any $$a$$, the additive inverse is $$-a$$: $$a + (-a) = 0$$.
+
+6. **Idempotent**: No.  
+   $$a + a \neq a$$ unless $$a = 0$$.
+
+7. **Closure**: Yes.  
+   For any $$a, b$$ in the set of real numbers $$\mathbb{R}$$, $$a + b$$ is also in $$\mathbb{R}$$.
+
+8. **Absorption**: No.  
+   There is no "absorbing" element for addition.
+
+9. **Symmetric**: No.  
+   Symmetry is not a property of addition.
+
+10. **Transitive**: Not applicable to addition as a binary operation.
+
+#### Subtraction (-)
+
+1. **Commutative**: No.  
+   $$a - b \neq b - a$$ in general.
+
+2. **Associative**: No.  
+   $$(a - b) - c \neq a - (b - c)$$.
+
+3. **Distributive**: No (not directly relevant on its own).
+
+4. **Identity**: Yes.  
+   The identity element is 0: $$a - 0 = a$$.
+
+5. **Inverse**: Yes.  
+   Subtraction is essentially addition with the additive inverse: $$a - b = a + (-b)$$.
+
+6. **Idempotent**: No.  
+   $$a - a = 0$$, so the result is not $$a$$.
+
+7. **Closure**: Yes.  
+   For any $$a, b$$ in $$\mathbb{R}$$, $$a - b$$ is in $$\mathbb{R}$$.
+
+8. **Absorption**: No.  
+   There is no "absorbing" element for subtraction.
+
+9. **Symmetric**: No.  
+   Subtraction is not symmetric because $$a - b \neq b - a$$.
+
+10. **Transitive**: Not applicable to subtraction as a binary operation.
+
+#### Multiplication (\(*\))
+
+1. **Commutative**: Yes.  
+   $$a \cdot b = b \cdot a$$.
+
+2. **Associative**: Yes.  
+   $$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$.
+
+3. **Distributive**: Yes (over addition and subtraction).  
+   $$a \cdot (b + c) = a \cdot b + a \cdot c$$.
+
+4. **Identity**: Yes.  
+   The identity element is 1: $$a \cdot 1 = a$$.
+
+5. **Inverse**: Yes (for nonzero elements).  
+   The multiplicative inverse of $$a \neq 0$$ is $$1/a$$: $$a \cdot (1/a) = 1$$.
+
+6. **Idempotent**: No.  
+   $$a \cdot a \neq a$$ unless $$a = 0$$ or $$a = 1$$.
+
+7. **Closure**: Yes.  
+   For $$a, b \in \mathbb{R}$$, $$a \cdot b \in \mathbb{R}$$.
+
+8. **Absorption**: Yes.  
+   The absorbing element is 0: $$a \cdot 0 = 0$$.
+
+9. **Symmetric**: No.  
+   Symmetry is not a property of multiplication.
+
+10. **Transitive**: Not applicable to multiplication as a binary operation.
+
+#### Division (/)
+
+1. **Commutative**: No.  
+   $$a / b \neq b / a$$ in general.
+
+2. **Associative**: No.  
+   $$(a / b) / c \neq a / (b / c)$$.
+
+3. **Distributive**: No.  
+   Division does not distribute over addition or subtraction.
+
+4. **Identity**: Yes.  
+   Dividing by 1 does not change the value: $$a / 1 = a$$.
+
+5. **Inverse**: Yes (for nonzero elements).  
+   Division is multiplication by the reciprocal: $$a / b = a \cdot (1/b)$$, assuming $$b \neq 0$$.
+
+6. **Idempotent**: No.  
+   $$a / a = 1$$, so the result is not $$a$$.
+
+7. **Closure**: Yes (if excluding division by 0).  
+   For $$a, b \in \mathbb{R}$$ and $$b \neq 0$$, $$a / b \in \mathbb{R}$$.
+
+8. **Absorption**: No.  
+   There is no "absorbing" element for division.
+
+9. **Symmetric**: No.  
+   Division is not symmetric because $$a / b \neq b / a$$.
+
+10. **Transitive**: Not applicable to division as a binary operation.
+
+---
+
+### **Summary Table**
+
+| Property         | Addition (+) | Subtraction (-) | Multiplication (*) | Division (/) |
+|------------------|--------------|------------------|---------------------|--------------|
+| **Commutative**  | Yes          | No               | Yes                 | No           |
+| **Associative**  | Yes          | No               | Yes                 | No           |
+| **Distributive** | No           | No               | Yes                 | No           |
+| **Identity**     | Yes (0)      | Yes (0)          | Yes (1)             | Yes (1)      |
+| **Inverse**      | Yes          | Yes              | Yes (nonzero)       | Yes (nonzero)|
+| **Idempotent**   | No           | No               | No                  | No           |
+| **Closure**      | Yes          | Yes              | Yes                 | Yes (except b = 0) |
+| **Absorption**   | No           | No               | Yes (0)             | No           |
+| **Symmetric**    | No           | No               | No                  | No           |
+| **Transitive**   | N/A          | N/A              | N/A                 | N/A          |
+
 - **Arithmetic Operations**:
   - Addition (`+`)
   - Subtraction (`-`)
