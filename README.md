@@ -69,6 +69,7 @@ For example, when testing a queue, a property might be that the size of the queu
 - Floor Division (`//`)
 - Modulus (`%`)
 - Exponentiation (`**`)
+- **Arithmetic Relations**:
 
 ### **Summary Table**
 
@@ -186,8 +187,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNjk5MDAxMzAsMTUzNzM4NjAzMSwyMD
-E2NTMzMTcwLDE4MDMxNzQyMjIsLTE5MDM2MDQxMDEsLTY2NDU5
-ODI0MSwxNjQ0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2OTgzNC
-w2ODU3NTQ5NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
+eyJoaXN0b3J5IjpbMTU0NDc1OTYxOCwxNTM3Mzg2MDMxLDIwMT
+Y1MzMxNzAsMTgwMzE3NDIyMiwtMTkwMzYwNDEwMSwtNjY0NTk4
+MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5ODM0LD
+Y4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ==
 -->
