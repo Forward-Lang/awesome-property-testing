@@ -119,9 +119,7 @@ String comparison involves checking the equality or relative lexicographical ord
 
 1.  **Equality (==):** Checks if two strings are the same.
     
-    -   **Commutative**: Yes. 
-    - s1==s2  ⟺  s2==s1
-    - $s_1 == s_2 \iff s_2 == s_1$.
+    -   **Commutative**: Yes. $s_1 == s_2 \iff s_2 == s_1$.
     -   **Closure**: Yes. Always results in a Boolean value (True or False).
     -   **Symmetric**: Yes. Equality is symmetric.
     -   **Transitive**: Yes. If s1==s2s_1 == s_2 and s2==s3s_2 == s_3, then s1==s3s_1 == s_3.
@@ -302,7 +300,7 @@ dhdGl2ZSB0aW1lcz8iLCJjcmVhdGVkIjoxNzMyMjg3MDI2Njcw
 fSwiYlhGQnVCM094SThuUWFZdSI6eyJkaXNjdXNzaW9uSWQiOi
 JHYXJXcHIzYW5nRGhQa2JKIiwic3ViIjoiZ2g6ODE3NjIxNzMi
 LCJ0ZXh0Ijoid2hhdCBhYm91dCBzcGxpdD8iLCJjcmVhdGVkIj
-oxNzMyMjg3MTMzODQyfX0sImhpc3RvcnkiOlstODMyNDU1NzY2
+oxNzMyMjg3MTMzODQyfX0sImhpc3RvcnkiOlsxNjMwNTkyMjMy
 LC0xMDU2NjUwMDAyLC0xMDIxOTkzOTMzLDE1MzczODYwMzEsMj
 AxNjUzMzE3MCwxODAzMTc0MjIyLC0xOTAzNjA0MTAxLC02NjQ1
 OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMjk4Njk4Mz
