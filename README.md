@@ -94,22 +94,18 @@ For example, when testing a queue, a property might be that the size of the queu
   
 ### 2. **Strings**:
 - **Basic Operations**:
-  - Concatenation (`+`): Concatenation involves joining two strings $s_1$ and $s_2$ end-to-end.
-  - Repetition (`*`)
-  - Slicing (`str[start:end]`)
-  - Length (`len()`)
+ - Concatenation (`+`): Concatenation involves joining two strings $s_1$ and $s_2$ end-to-end.
+	- **Commutative**: No.  $s_1 + s_2 \neq s_2 + s_1$.  Example: "hello" + "world" ≠ "world" + "hello".
+	- **Associative**: Yes.  $(s_1 + s_2) + s_3 = s_1 + (s_2 + s_3)$.  Example: ("a" + "b") + "c" = "a" + ("b" + "c") = "abc".
+	- **Identity**: Yes.  The identity element is the empty string $\epsilon$: $s + \epsilon = s$.
+	- **Inverse**: No.  There’s no general inverse operation for concatenation (you can't uniquely undo concatenation without extra context).
+	- **Closure**: Yes.  If $s_1$ and $s_2$ are strings, $s_1 + s_2$ is also a string.
+ - Repetition (`*`)
+ - Slicing (`str[start:end]`)
+ - Length (`len()`)
 
-### **1. Concatenation (+ or .)**
-
-
-- **Commutative**: No.  $s_1 + s_2 \neq s_2 + s_1$.  Example: "hello" + "world" ≠ "world" + "hello".
-- **Associative**: Yes.  $(s_1 + s_2) + s_3 = s_1 + (s_2 + s_3)$.  Example: ("a" + "b") + "c" = "a" + ("b" + "c") = "abc".
-- **Identity**: Yes.  The identity element is the empty string $\epsilon$: $s + \epsilon = s$.
-- **Inverse**: No.  There’s no general inverse operation for concatenation (you can't uniquely undo concatenation without extra context).
-- **Idempotent**: No.  $s + s \neq s$, unless $s = \epsilon$.
-- **Closure**: Yes.  If $s_1$ and $s_2$ are strings, $s_1 + s_2$ is also a string.
     
-### **2. Repetition (∗*)**
+### **2. Repetition (\∗\*)**
 
 Repetition creates a new string by repeating a base string ss nn-times (e.g., s∗ns * n).
 
@@ -291,7 +287,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNjM3MDMwMjAsLTE5MDM2MDQxMDEsLT
+eyJoaXN0b3J5IjpbLTIwODMyMjcwNTAsLTE5MDM2MDQxMDEsLT
 Y2NDU5ODI0MSwxNjQ0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2
 OTgzNCw2ODU3NTQ5NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX
 0=
