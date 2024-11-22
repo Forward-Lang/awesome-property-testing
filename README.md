@@ -50,7 +50,6 @@ For example, when testing a queue, a property might be that the size of the queu
 	- **Associative**: No.  $(a - b) - c \neq a - (b - c)$.
 	- **Identity**: Yes.  The identity element is 0: $a - 0 = a$.
 	- **Inverse**: Yes.  Subtraction is essentially addition with the additive inverse: $a - b = a + (-b)$.
-	- **Idempotent**: No.  $a - a = 0$, so the result is not $a$.
 	- **Closure**: Yes.  For any $a, b$ in $\mathbb{R}$, $a - b$ is in $\mathbb{R}$.
 	- **Symmetric**: No.  Subtraction is not symmetric because $a - b \neq b - a$.
 - Multiplication (`*`)
@@ -59,7 +58,6 @@ For example, when testing a queue, a property might be that the size of the queu
 	- **Distributive**: Yes (over addition and subtraction).  $a \cdot (b + c) = a \cdot b + a \cdot c$.
 	- **Identity**: Yes.  The identity element is 1: $a \cdot 1 = a$.
 	- **Inverse**: Yes (for nonzero elements).  The multiplicative inverse of $a \neq 0$ is $1/a$: $a \cdot (1/a) = 1$.
-	- **Idempotent**: No.  $a \cdot a \neq a$ unless $a = 0$ or $a = 1$.
 	- **Closure**: Yes.  For $a, b \in \mathbb{R}$, $a \cdot b \in \mathbb{R}$.
 	- **Absorption**: Yes.  The absorbing element is 0: $a \cdot 0 = 0$.
 - Division (`/`)
@@ -193,8 +191,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxNjUzMzE3MCwxODAzMTc0MjIyLC0xOT
-AzNjA0MTAxLC02NjQ1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgx
-NTQzOCwxMjk4Njk4MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMT
-c0NTY3NTU2NF19
+eyJoaXN0b3J5IjpbMTUzNzM4NjAzMSwyMDE2NTMzMTcwLDE4MD
+MxNzQyMjIsLTE5MDM2MDQxMDEsLTY2NDU5ODI0MSwxNjQ0NTY2
+NjYxLC0xMjA2ODE1NDM4LDEyOTg2OTgzNCw2ODU3NTQ5NzksMT
+MxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
 -->
