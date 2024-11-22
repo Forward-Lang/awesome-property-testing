@@ -104,27 +104,27 @@ For example, when testing a queue, a property might be that the size of the queu
 Concatenation involves joining two strings s1s_1 and s2s_2 end-to-end.
 
 1.  **Commutative**: No.  
-    $s1+s2≠s2+s1$ , $s_1 + s_2 \neq s_2 + s_1$.  
+     $s_1 + s_2 \neq s_2 + s_1$.  
     Example: "hello" + "world" ≠ "world" + "hello".
     
 2.  **Associative**: Yes.  
-    $(s1+s2)+s3=s1+(s2+s3)(s_1 + s_2) + s_3 = s_1 + (s_2 + s_3)$.  
+    $(s_1 + s_2) + s_3 = s_1 + (s_2 + s_3)$.  
     Example: ("a" + "b") + "c" = "a" + ("b" + "c") = "abc".
     
 3.  **Distributive**: No.  
     Concatenation doesn’t distribute over any operation like addition or slicing.
     
 4.  **Identity**: Yes.  
-    The identity element is the empty string $ϵ\epsilon$: $s+ϵ=ss + \epsilon = s$.
+    The identity element is the empty string $\epsilon$: $s + \epsilon = s$.
     
 5.  **Inverse**: No.  
     There’s no general inverse operation for concatenation (you can't uniquely undo concatenation without extra context).
     
 6.  **Idempotent**: No.  
-    s+s≠ss + s \neq s, unless s=ϵs = \epsilon.
+    $s + s \neq s$, unless $s = \epsilon$.
     
 7.  **Closure**: Yes.  
-    If s1s_1 and s2s_2 are strings, s1+s2s_1 + s_2 is also a string.
+    If $s_1$ and $s_2$ are strings, $s_1 + s_2$ is also a string.
     
 8.  **Absorption**: No.  
     There’s no absorbing element for concatenation.
@@ -317,8 +317,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY5MzUzNDA4NSwtMTkwMzYwNDEwMSwtNj
-Y0NTk4MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5
-ODM0LDY4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ
-==
+eyJoaXN0b3J5IjpbMjE0NDc0NTA4LC0xOTAzNjA0MTAxLC02Nj
+Q1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMjk4Njk4
+MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NTY3NTU2NF19
 -->
