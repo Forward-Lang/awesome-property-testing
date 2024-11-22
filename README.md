@@ -102,37 +102,12 @@ For example, when testing a queue, a property might be that the size of the queu
 ### **1. Concatenation (+ or .)**
 
 
-- **Commutative**: No.  
-     $s_1 + s_2 \neq s_2 + s_1$.  
-    Example: "hello" + "world" ≠ "world" + "hello".
-    
-- **Associative**: Yes.  
-    $(s_1 + s_2) + s_3 = s_1 + (s_2 + s_3)$.  
-    Example: ("a" + "b") + "c" = "a" + ("b" + "c") = "abc".
-    
-- **Distributive**: No.  
-    Concatenation doesn’t distribute over any operation like addition or slicing.
-    
-- **Identity**: Yes.  
-    The identity element is the empty string $\epsilon$: $s + \epsilon = s$.
-    
-- **Inverse**: No.  
-    There’s no general inverse operation for concatenation (you can't uniquely undo concatenation without extra context).
-    
-- **Idempotent**: No.  
-    $s + s \neq s$, unless $s = \epsilon$.
-    
-- **Closure**: Yes.  
-    If $s_1$ and $s_2$ are strings, $s_1 + s_2$ is also a string.
-    
-- **Absorption**: No.  
-    There’s no absorbing element for concatenation.
-    
-- **Symmetric**: No.  
-    Concatenation is not symmetric as the order matters.
-    
-- **Transitive**: Not applicable.  
-    Transitivity is not meaningful for concatenation.
+- **Commutative**: No.  $s_1 + s_2 \neq s_2 + s_1$.  Example: "hello" + "world" ≠ "world" + "hello".
+- **Associative**: Yes.  $(s_1 + s_2) + s_3 = s_1 + (s_2 + s_3)$.  Example: ("a" + "b") + "c" = "a" + ("b" + "c") = "abc".
+- **Identity**: Yes.  The identity element is the empty string $\epsilon$: $s + \epsilon = s$.
+- **Inverse**: No.  There’s no general inverse operation for concatenation (you can't uniquely undo concatenation without extra context).
+- **Idempotent**: No.  $s + s \neq s$, unless $s = \epsilon$.
+- **Closure**: Yes.  If $s_1$ and $s_2$ are strings, $s_1 + s_2$ is also a string.
     
 ### **2. Repetition (∗*)**
 
@@ -316,8 +291,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1Mzg1ODczMSwtMTkwMzYwNDEwMSwtNj
-Y0NTk4MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5
-ODM0LDY4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ
-==
+eyJoaXN0b3J5IjpbLTEzNjM3MDMwMjAsLTE5MDM2MDQxMDEsLT
+Y2NDU5ODI0MSwxNjQ0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2
+OTgzNCw2ODU3NTQ5NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX
+0=
 -->
