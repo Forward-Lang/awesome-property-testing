@@ -109,9 +109,7 @@ For example, when testing a queue, a property might be that the size of the queu
 
 Repetition creates a new string by repeating a base string $s$ $n$-times (e.g., $s * n$).
 
-- **Commutative**: No.  
-    $s * n \neq n * s$.  
-    Example: "a" * 3 = "aaa", but 3 * "a" is undefined in most languages.
+- **Commutative**: No.  $s * n \neq n * s$.  Example: "a" * 3 = "aaa", but 3 * "a" is undefined in most languages.
 - **Distributive**: No.  Repetition doesn’t distribute over addition or concatenation. Example: $(s_1 + s_2) * n \neq (s_1 * n) + (s_2 * n)$.
 - **Identity**: Yes.  The identity element is 1: $s * 1 = s$.
 - **Inverse**: No.  There is no universal way to "undo" repetition without ambiguity.
@@ -143,14 +141,6 @@ Slicing extracts a substring from a given string.
 - **Closure**: Yes.  
     A slice of a string is always a string.
     
-- **Absorption**: No.  
-    There’s no absorbing element in slicing.
-    
-- **Symmetric**: No.  
-    Slicing is not symmetric as the indices and order matter.
-    
-- **Transitive**: Not applicable.  
-    Transitivity doesn’t apply to slicing.
     
 ### **4. Length (len(s)len(s))**
 
@@ -245,8 +235,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMTU3MDA2NywtMTkwMzYwNDEwMSwtNj
-Y0NTk4MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5
-ODM0LDY4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ
-==
+eyJoaXN0b3J5IjpbMjkxNzIzNTYwLC0xOTAzNjA0MTAxLC02Nj
+Q1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMjk4Njk4
+MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NTY3NTU2NF19
 -->
