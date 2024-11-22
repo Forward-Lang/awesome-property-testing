@@ -104,18 +104,18 @@ For example, when testing a queue, a property might be that the size of the queu
 Concatenation involves joining two strings s1s_1 and s2s_2 end-to-end.
 
 1.  **Commutative**: No.  
-    s1+s2≠s2+s1s_1 + s_2 \neq s_2 + s_1.  
+    $s1+s2≠s2+s1$ , $s_1 + s_2 \neq s_2 + s_1$.  
     Example: "hello" + "world" ≠ "world" + "hello".
     
 2.  **Associative**: Yes.  
-    (s1+s2)+s3=s1+(s2+s3)(s_1 + s_2) + s_3 = s_1 + (s_2 + s_3).  
+    $(s1+s2)+s3=s1+(s2+s3)(s_1 + s_2) + s_3 = s_1 + (s_2 + s_3)$.  
     Example: ("a" + "b") + "c" = "a" + ("b" + "c") = "abc".
     
 3.  **Distributive**: No.  
     Concatenation doesn’t distribute over any operation like addition or slicing.
     
 4.  **Identity**: Yes.  
-    The identity element is the empty string ϵ\epsilon: s+ϵ=ss + \epsilon = s.
+    The identity element is the empty string $ϵ\epsilon$: $s+ϵ=ss + \epsilon = s$.
     
 5.  **Inverse**: No.  
     There’s no general inverse operation for concatenation (you can't uniquely undo concatenation without extra context).
@@ -317,8 +317,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTgyNDA4OTcsLTE5MDM2MDQxMDEsLT
-Y2NDU5ODI0MSwxNjQ0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2
-OTgzNCw2ODU3NTQ5NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX
-0=
+eyJoaXN0b3J5IjpbLTY5MzUzNDA4NSwtMTkwMzYwNDEwMSwtNj
+Y0NTk4MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5
+ODM0LDY4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ
+==
 -->
