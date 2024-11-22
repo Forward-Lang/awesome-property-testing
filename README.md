@@ -113,23 +113,11 @@ For example, when testing a queue, a property might be that the size of the queu
 	- **Inverse**: No.  Slicing cannot be reversed unless the original context is known.
 	- **Idempotent**: Yes.  Reapplying the same slice gives the same result: $s[1:3][0:2] = s[1:3]$.
 	- **Closure**: Yes.  A slice of a string is always a string.
- - Length (`len()`)
-
-    
-        
-
-
-        
-### **4. Length ($len(s)$)**
-
-Length calculates the number of characters in a string.
-
-- **Distributive**: No.  Length doesn’t distribute over concatenation or slicing: $len(s_1 + s_2) = len(s_1) + len(s_2)$, but this isn’t distribution in a strict sense.
-- **Identity**: Yes.  $len(\epsilon) = 0$.
-- **Idempotent**: Yes.  Reapplying the length operation gives the same result: $len(len(s)) = len(s)$.
-- **Closure**: Yes.  The length of a string is always a non-negative integer.
-        
-
+ - Length (`len()`): Length calculates the number of characters in a string.
+	- **Distributive**: No.  Length doesn’t distribute over concatenation or slicing: $len(s_1 + s_2) = len(s_1) + len(s_2)$, but this isn’t distribution in a strict sense.
+	- **Identity**: Yes.  $len(\epsilon) = 0$.
+	- **Idempotent**: Yes.  Reapplying the length operation gives the same result: $len(len(s)) = len(s)$.
+	- **Closure**: Yes.  The length of a string is always a non-negative integer.
   
 ### 3. **Lists**:
 - **Basic Operations**:
@@ -206,7 +194,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk2NzQ3Nzg5MiwxODAzMTc0MjIyLC0xOT
+eyJoaXN0b3J5IjpbLTU1OTczMjM0OSwxODAzMTc0MjIyLC0xOT
 AzNjA0MTAxLC02NjQ1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgx
 NTQzOCwxMjk4Njk4MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMT
 c0NTY3NTU2NF19
