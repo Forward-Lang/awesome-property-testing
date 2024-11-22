@@ -110,7 +110,7 @@ For example, when testing a queue, a property might be that the size of the queu
 Repetition creates a new string by repeating a base string $s$ $n$-times (e.g., $s * n$).
 
 - **Commutative**: No.  
-    s∗n≠n∗ss * n \neq n * s.  
+    $s * n \neq n * s$.  
     Example: "a" * 3 = "aaa", but 3 * "a" is undefined in most languages.
     
 - **Associative**: Yes (for scalar repetition).  
@@ -119,7 +119,7 @@ Repetition creates a new string by repeating a base string $s$ $n$-times (e.g., 
     
 - **Distributive**: No.  
     Repetition doesn’t distribute over addition or concatenation.  
-    Example: (s1+s2)∗n≠(s1∗n)+(s2∗n)(s_1 + s_2) * n \neq (s_1 * n) + (s_2 * n).
+    Example: $(s_1 + s_2) * n \neq (s_1 * n) + (s_2 * n)$.
     
 - **Identity**: Yes.  
     The identity element is 1: s∗1=ss * 1 = s.
@@ -180,12 +180,6 @@ Slicing extracts a substring from a given string.
 
 Length calculates the number of characters in a string.
 
-- **Commutative**: Not applicable.  
-    Length isn’t a binary operation.
-    
-- **Associative**: Not applicable.  
-    Associativity doesn’t apply to length as it’s a single-input function.
-    
 - **Distributive**: No.  
     Length doesn’t distribute over concatenation or slicing: len(s1+s2)=len(s1)+len(s2)len(s_1 + s_2) = len(s_1) + len(s_2), but this isn’t distribution in a strict sense.
     
@@ -275,8 +269,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTgwMTgwMiwtMTkwMzYwNDEwMSwtNj
-Y0NTk4MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5
-ODM0LDY4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ
-==
+eyJoaXN0b3J5IjpbODI5OTk2NzAzLC0xOTAzNjA0MTAxLC02Nj
+Q1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMjk4Njk4
+MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NTY3NTU2NF19
 -->
