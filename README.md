@@ -122,7 +122,7 @@ String comparison involves checking the equality or relative lexicographical ord
     -   **Commutative**: Yes. $s_1 == s_2 \iff s_2 == s_1$.
     -   **Closure**: Yes. Always results in a Boolean value (True or False).
     -   **Symmetric**: Yes. Equality is symmetric.
-    -   **Transitive**: Yes. If s1==s2s_1 == s_2 and s2==s3s_2 == s_3, then s1==s3s_1 == s_3.
+    -   **Transitive**: Yes. If $s_1 == s_2$ and $s_2 == s_3$, then $s_1 == s_3$.
 2.  **Lexicographical Order (<, >, <=, >=):** Compares strings based on their order in the alphabet or Unicode table.
     
     -   **Commutative**: No. s1<s2≠s2<s1s_1 < s_2 \neq s_2 < s_1.
@@ -300,9 +300,9 @@ dhdGl2ZSB0aW1lcz8iLCJjcmVhdGVkIjoxNzMyMjg3MDI2Njcw
 fSwiYlhGQnVCM094SThuUWFZdSI6eyJkaXNjdXNzaW9uSWQiOi
 JHYXJXcHIzYW5nRGhQa2JKIiwic3ViIjoiZ2g6ODE3NjIxNzMi
 LCJ0ZXh0Ijoid2hhdCBhYm91dCBzcGxpdD8iLCJjcmVhdGVkIj
-oxNzMyMjg3MTMzODQyfX0sImhpc3RvcnkiOlsxNjMwNTkyMjMy
-LC0xMDU2NjUwMDAyLC0xMDIxOTkzOTMzLDE1MzczODYwMzEsMj
-AxNjUzMzE3MCwxODAzMTc0MjIyLC0xOTAzNjA0MTAxLC02NjQ1
-OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMjk4Njk4Mz
-QsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NTY3NTU2NF19
+oxNzMyMjg3MTMzODQyfX0sImhpc3RvcnkiOlszMzAyMTQ2OTYs
+LTEwNTY2NTAwMDIsLTEwMjE5OTM5MzMsMTUzNzM4NjAzMSwyMD
+E2NTMzMTcwLDE4MDMxNzQyMjIsLTE5MDM2MDQxMDEsLTY2NDU5
+ODI0MSwxNjQ0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2OTgzNC
+w2ODU3NTQ5NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
 -->
