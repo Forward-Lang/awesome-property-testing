@@ -99,6 +99,147 @@ For example, when testing a queue, a property might be that the size of the queu
   - Slicing (`str[start:end]`)
   - Length (`len()`)
 
+### **1. Concatenation (+ or .)**
+
+Concatenation involves joining two strings s1s_1 and s2s_2 end-to-end.
+
+1.  **Commutative**: No.  
+    s1+s2≠s2+s1s_1 + s_2 \neq s_2 + s_1.  
+    Example: "hello" + "world" ≠ "world" + "hello".
+    
+2.  **Associative**: Yes.  
+    (s1+s2)+s3=s1+(s2+s3)(s_1 + s_2) + s_3 = s_1 + (s_2 + s_3).  
+    Example: ("a" + "b") + "c" = "a" + ("b" + "c") = "abc".
+    
+3.  **Distributive**: No.  
+    Concatenation doesn’t distribute over any operation like addition or slicing.
+    
+4.  **Identity**: Yes.  
+    The identity element is the empty string ϵ\epsilon: s+ϵ=ss + \epsilon = s.
+    
+5.  **Inverse**: No.  
+    There’s no general inverse operation for concatenation (you can't uniquely undo concatenation without extra context).
+    
+6.  **Idempotent**: No.  
+    s+s≠ss + s \neq s, unless s=ϵs = \epsilon.
+    
+7.  **Closure**: Yes.  
+    If s1s_1 and s2s_2 are strings, s1+s2s_1 + s_2 is also a string.
+    
+8.  **Absorption**: No.  
+    There’s no absorbing element for concatenation.
+    
+9.  **Symmetric**: No.  
+    Concatenation is not symmetric as the order matters.
+    
+10.  **Transitive**: Not applicable.  
+    Transitivity is not meaningful for concatenation.
+    
+### **2. Repetition (∗*)**
+
+Repetition creates a new string by repeating a base string ss nn-times (e.g., s∗ns * n).
+
+1.  **Commutative**: No.  
+    s∗n≠n∗ss * n \neq n * s.  
+    Example: "a" * 3 = "aaa", but 3 * "a" is undefined in most languages.
+    
+2.  **Associative**: Yes (for scalar repetition).  
+    (s∗n)∗m=s∗(n∗m)(s * n) * m = s * (n * m).  
+    Example: ("a" * 2) * 3 = "aa" * 3 = "aaaaaa".
+    
+3.  **Distributive**: No.  
+    Repetition doesn’t distribute over addition or concatenation.  
+    Example: (s1+s2)∗n≠(s1∗n)+(s2∗n)(s_1 + s_2) * n \neq (s_1 * n) + (s_2 * n).
+    
+4.  **Identity**: Yes.  
+    The identity element is 1: s∗1=ss * 1 = s.
+    
+5.  **Inverse**: No.  
+    There is no universal way to "undo" repetition without ambiguity.
+    
+6.  **Idempotent**: No.  
+    s∗n≠ss * n \neq s unless n=1n = 1.
+    
+7.  **Closure**: Yes.  
+    Repeating a string ss nn-times results in another string.
+    
+8.  **Absorption**: Yes (in a specific sense).  
+    Repetition by 0 results in the empty string: s∗0=ϵs * 0 = \epsilon.
+    
+9.  **Symmetric**: No.  
+    Repetition is not symmetric.
+    
+10.  **Transitive**: Not applicable.  
+    Transitivity doesn’t apply to repetition.
+    
+### **3. Slicing ([start:end])**
+
+Slicing extracts a substring from a given string.
+
+1.  **Commutative**: No.  
+    The order of indices matters: s[1:3]≠s[3:1]s[1:3] \neq s[3:1] (and reversing indices is often invalid).
+    
+2.  **Associative**: No.  
+    Nesting slices doesn’t always give the same result as a single slice.
+    
+3.  **Distributive**: No.  
+    Slicing doesn’t distribute over concatenation or repetition.
+    
+4.  **Identity**: Yes.  
+    The identity slice is [:][:], which returns the whole string: s[:]=ss[:] = s.
+    
+5.  **Inverse**: No.  
+    Slicing cannot be reversed unless the original context is known.
+    
+6.  **Idempotent**: Yes.  
+    Reapplying the same slice gives the same result: s[1:3][0:2]=s[1:3]s[1:3][0:2] = s[1:3].
+    
+7.  **Closure**: Yes.  
+    A slice of a string is always a string.
+    
+8.  **Absorption**: No.  
+    There’s no absorbing element in slicing.
+    
+9.  **Symmetric**: No.  
+    Slicing is not symmetric as the indices and order matter.
+    
+10.  **Transitive**: Not applicable.  
+    Transitivity doesn’t apply to slicing.
+    
+### **4. Length (len(s)len(s))**
+
+Length calculates the number of characters in a string.
+
+- **Commutative**: Not applicable.  
+    Length isn’t a binary operation.
+    
+- **Associative**: Not applicable.  
+    Associativity doesn’t apply to length as it’s a single-input function.
+    
+- **Distributive**: No.  
+    Length doesn’t distribute over concatenation or slicing: len(s1+s2)=len(s1)+len(s2)len(s_1 + s_2) = len(s_1) + len(s_2), but this isn’t distribution in a strict sense.
+    
+- **Identity**: Yes.  
+    len(ϵ)=0len(\epsilon) = 0.
+    
+- **Inverse**: No.  
+    There’s no inverse operation for length.
+    
+- **Idempotent**: Yes.  
+    Reapplying the length operation gives the same result: len(len(s))=len(s)len(len(s)) = len(s).
+    
+- **Closure**: Yes.  
+    The length of a string is always a non-negative integer.
+    
+- **Absorption**: No.  
+    There’s no absorbing element for length.
+    
+- **Symmetric**: Not applicable.  
+    Symmetry doesn’t apply to length.
+    
+- **Transitive**: Not applicable.  
+    Transitivity doesn’t apply to length.
+    
 
   
 ### 3. **Lists**:
@@ -176,7 +317,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MDM2MDQxMDEsLTY2NDU5ODI0MSwxNj
-Q0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2OTgzNCw2ODU3NTQ5
-NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
+eyJoaXN0b3J5IjpbLTEwNTgyNDA4OTcsLTE5MDM2MDQxMDEsLT
+Y2NDU5ODI0MSwxNjQ0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2
+OTgzNCw2ODU3NTQ5NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX
+0=
 -->
