@@ -51,7 +51,6 @@ For example, when testing a queue, a property might be that the size of the queu
 	- **Identity**: Yes.  The identity element is 0: $a - 0 = a$.
 	- **Inverse**: Yes.  Subtraction is essentially addition with the additive inverse: $a - b = a + (-b)$.
 	- **Closure**: Yes.  For any $a, b$ in $\mathbb{R}$, $a - b$ is in $\mathbb{R}$.
-	- **Symmetric**: No.  Subtraction is not symmetric because $a - b \neq b - a$.
 - Multiplication (`*`)
 	- **Commutative**: Yes.  $a \cdot b = b \cdot a$.
 	- **Associative**: Yes.  $(a \cdot b) \cdot c = a \cdot (b \cdot c)$.
@@ -67,7 +66,6 @@ For example, when testing a queue, a property might be that the size of the queu
 	- **Identity**: Yes.  Dividing by 1 does not change the value: $a / 1 = a$.
 	- **Inverse**: Yes (for nonzero elements).  Division is multiplication by the reciprocal: $a / b = a \cdot (1/b)$, assuming $b \neq 0$.
 	- **Closure**: Yes (if excluding division by 0).  For $a, b \in \mathbb{R}$ and $b \neq 0$, $a / b \in \mathbb{R}$.
-	- **Symmetric**: No.  Division is not symmetric because $a / b \neq b / a$.
 - Floor Division (`//`)
 - Modulus (`%`)
 - Exponentiation (`**`)
@@ -84,8 +82,6 @@ For example, when testing a queue, a property might be that the size of the queu
 | **Idempotent**   | No           | No               | No                  | No           |
 | **Closure**      | Yes          | Yes              | Yes                 | Yes (except b = 0) |
 | **Absorption**   | No           | No               | Yes (0)             | No           |
-| **Symmetric**    | No           | No               | No                  | No           |
-| **Transitive**   | N/A          | N/A              | N/A                 | N/A          |
 
   
 ### 2. **Strings**:
@@ -190,8 +186,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI0ODQ1NTU3LDE1MzczODYwMzEsMjAxNj
-UzMzE3MCwxODAzMTc0MjIyLC0xOTAzNjA0MTAxLC02NjQ1OTgy
-NDEsMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMjk4Njk4MzQsNj
-g1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NTY3NTU2NF19
+eyJoaXN0b3J5IjpbLTIwNjk5MDAxMzAsMTUzNzM4NjAzMSwyMD
+E2NTMzMTcwLDE4MDMxNzQyMjIsLTE5MDM2MDQxMDEsLTY2NDU5
+ODI0MSwxNjQ0NTY2NjYxLC0xMjA2ODE1NDM4LDEyOTg2OTgzNC
+w2ODU3NTQ5NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
 -->
