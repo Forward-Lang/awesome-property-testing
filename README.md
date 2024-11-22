@@ -74,13 +74,8 @@ For example, when testing a queue, a property might be that the size of the queu
 7. **Closure**: Yes.  
    For any $$a, b$$ in $$\mathbb{R}$$, $$a - b$$ is in $$\mathbb{R}$$.
 
-8. **Absorption**: No.  
-   There is no "absorbing" element for subtraction.
-
 9. **Symmetric**: No.  
    Subtraction is not symmetric because $$a - b \neq b - a$$.
-
-10. **Transitive**: Not applicable to subtraction as a binary operation.
 
 #### Multiplication (\(*\))
 
@@ -136,13 +131,8 @@ For example, when testing a queue, a property might be that the size of the queu
 7. **Closure**: Yes (if excluding division by 0).  
    For $$a, b \in \mathbb{R}$$ and $$b \neq 0$$, $$a / b \in \mathbb{R}$$.
 
-8. **Absorption**: No.  
-   There is no "absorbing" element for division.
-
 9. **Symmetric**: No.  
    Division is not symmetric because $$a / b \neq b / a$$.
-
-10. **Transitive**: Not applicable to division as a binary operation.
 
 ---
 
@@ -259,5 +249,5 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MjE2Njg5Ml19
+eyJoaXN0b3J5IjpbMTc0NTY3NTU2NF19
 -->
