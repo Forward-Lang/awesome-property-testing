@@ -120,16 +120,12 @@ String comparison involves checking the equality or relative lexicographical ord
 1.  **Equality (==):** Checks if two strings are the same.
     
     -   **Commutative**: Yes. s1==s2  ⟺  s2==s1s_1 == s_2 \iff s_2 == s_1.
-    -   **Associative**: Not applicable.
-    -   **Identity**: No identity element exists.
     -   **Closure**: Yes. Always results in a Boolean value (True or False).
     -   **Symmetric**: Yes. Equality is symmetric.
     -   **Transitive**: Yes. If s1==s2s_1 == s_2 and s2==s3s_2 == s_3, then s1==s3s_1 == s_3.
 2.  **Lexicographical Order (<, >, <=, >=):** Compares strings based on their order in the alphabet or Unicode table.
     
     -   **Commutative**: No. s1<s2≠s2<s1s_1 < s_2 \neq s_2 < s_1.
-    -   **Associative**: Not applicable.
-    -   **Identity**: Not relevant.
     -   **Closure**: Yes. Always results in a Boolean value.
     -   **Symmetric**: No. s1<s2s_1 < s_2 doesn’t imply s2<s1s_2 < s_1.
     -   **Transitive**: Yes. If s1<s2s_1 < s_2 and s2<s3s_2 < s_3, then s1<s3s_1 < s_3.
@@ -223,8 +219,6 @@ Operations like interpolation, substitution, or formatting (e.g., f-strings in P
 2.  **Character Counting (`count`)**: Counts the occurrences of a substring.
 3.  **Checking Operations (`startswith`, `endswith`, `isalnum`, `isdigit`, etc.)**: Boolean checks on string properties.
 
-These string operations can be examined in-depth using the same properties framework, making them a rich area for logical exploration! Let me know if you'd like a specific one analyzed further.
-
 ---
   
 ### 3. **Lists**:
@@ -317,7 +311,7 @@ dhdGl2ZSB0aW1lcz8iLCJjcmVhdGVkIjoxNzMyMjg3MDI2Njcw
 fSwiYlhGQnVCM094SThuUWFZdSI6eyJkaXNjdXNzaW9uSWQiOi
 JHYXJXcHIzYW5nRGhQa2JKIiwic3ViIjoiZ2g6ODE3NjIxNzMi
 LCJ0ZXh0Ijoid2hhdCBhYm91dCBzcGxpdD8iLCJjcmVhdGVkIj
-oxNzMyMjg3MTMzODQyfX0sImhpc3RvcnkiOlstNjM3NDk4MDIz
+oxNzMyMjg3MTMzODQyfX0sImhpc3RvcnkiOlsyMTQ0OTg4NDQ3
 LC0xMDU2NjUwMDAyLC0xMDIxOTkzOTMzLDE1MzczODYwMzEsMj
 AxNjUzMzE3MCwxODAzMTc0MjIyLC0xOTAzNjA0MTAxLC02NjQ1
 OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMjk4Njk4Mz
