@@ -114,7 +114,7 @@ Repetition creates a new string by repeating a base string $s$ $n$-times (e.g., 
     Example: "a" * 3 = "aaa", but 3 * "a" is undefined in most languages.
     
 - **Associative**: Yes (for scalar repetition).  
-    (s∗n)∗m=s∗(n∗m)(s * n) * m = s * (n * m).  
+    $(s * n) * m = s * (n * m)$.  
     Example: ("a" * 2) * 3 = "aa" * 3 = "aaaaaa".
     
 - **Distributive**: No.  
@@ -131,17 +131,11 @@ Repetition creates a new string by repeating a base string $s$ $n$-times (e.g., 
     s∗n≠ss * n \neq s unless n=1n = 1.
     
 - **Closure**: Yes.  
-    Repeating a string ss nn-times results in another string.
+    Repeating a string $s$ $n$-times results in another string.
     
 - **Absorption**: Yes (in a specific sense).  
     Repetition by 0 results in the empty string: s∗0=ϵs * 0 = \epsilon.
-    
-- **Symmetric**: No.  
-    Repetition is not symmetric.
-    
-- **Transitive**: Not applicable.  
-    Transitivity doesn’t apply to repetition.
-    
+        
 ### **3. Slicing ([start:end])**
 
 Slicing extracts a substring from a given string.
@@ -269,7 +263,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODI5OTk2NzAzLC0xOTAzNjA0MTAxLC02Nj
-Q1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMjk4Njk4
-MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NTY3NTU2NF19
+eyJoaXN0b3J5IjpbLTcyNTQxODUzNywtMTkwMzYwNDEwMSwtNj
+Y0NTk4MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5
+ODM0LDY4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ
+==
 -->
