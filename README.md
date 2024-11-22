@@ -46,8 +46,6 @@ For example, when testing a queue, a property might be that the size of the queu
 2. **Associative**: Yes.  
    $$(a + b) + c = a + (b + c)$$.
 
-3. **Distributive**: No (not directly relevant on its own).
-
 4. **Identity**: Yes.  
    The identity element is 0: $$a + 0 = a$$.
 
@@ -274,3 +272,6 @@ Here are some popular property testing libraries that can help you get started i
 - **[Test.check](https://github.com/clojure/test.check)** - Clojure
 
 Feel free to contribute any other libraries you use for property testing!
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTQ3MDc0MTEzNF19
+-->
