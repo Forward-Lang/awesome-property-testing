@@ -75,10 +75,10 @@ For example, when testing a queue, a property might be that the size of the queu
 
 #### Multiplication (\(*\))
 
-1. **Commutative**: Yes.  
+- **Commutative**: Yes.  
    $$a \cdot b = b \cdot a$$.
 
-2. **Associative**: Yes.  
+- **Associative**: Yes.  
    $$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$.
 
 3. **Distributive**: Yes (over addition and subtraction).  
@@ -245,5 +245,6 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
+eyJoaXN0b3J5IjpbLTE2MzA5MTU0MTcsMTMxNjgzOTY2NiwxNz
+Q1Njc1NTY0XX0=
 -->
