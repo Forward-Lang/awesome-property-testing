@@ -129,9 +129,7 @@ For example, when testing a queue, a property might be that the size of the queu
 
 ### Operations on Numbers
 
-- Addition
-- Subst
-- **Test if dividing by a non-zero number gives the correct result**.
+- **Test if dividing by  zero**. 
 
 [See the full list of number property tests](property-tests/numbers.md)
 
@@ -181,6 +179,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMDY4MTU0MzgsMTI5ODY5ODM0LDY4NT
-c1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ==
+eyJoaXN0b3J5IjpbMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMj
+k4Njk4MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NTY3NTU2
+NF19
 -->
