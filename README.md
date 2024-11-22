@@ -62,8 +62,6 @@ For example, when testing a queue, a property might be that the size of the queu
 2. **Associative**: No.  
    $$(a - b) - c \neq a - (b - c)$$.
 
-3. **Distributive**: No (not directly relevant on its own).
-
 4. **Identity**: Yes.  
    The identity element is 0: $$a - 0 = a$$.
 
@@ -261,5 +259,5 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODYyNTE2MzhdfQ==
+eyJoaXN0b3J5IjpbMTc0MjE2Njg5Ml19
 -->
