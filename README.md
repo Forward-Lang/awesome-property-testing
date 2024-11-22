@@ -66,7 +66,6 @@ For example, when testing a queue, a property might be that the size of the queu
 	- **Distributive**: No.  Division does not distribute over addition or subtraction.
 	- **Identity**: Yes.  Dividing by 1 does not change the value: $a / 1 = a$.
 	- **Inverse**: Yes (for nonzero elements).  Division is multiplication by the reciprocal: $a / b = a \cdot (1/b)$, assuming $b \neq 0$.
-	- **Idempotent**: No.  $a / a = 1$, so the result is not $a$.
 	- **Closure**: Yes (if excluding division by 0).  For $a, b \in \mathbb{R}$ and $b \neq 0$, $a / b \in \mathbb{R}$.
 	- **Symmetric**: No.  Division is not symmetric because $a / b \neq b / a$.
 - Floor Division (`//`)
@@ -191,8 +190,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUzNzM4NjAzMSwyMDE2NTMzMTcwLDE4MD
-MxNzQyMjIsLTE5MDM2MDQxMDEsLTY2NDU5ODI0MSwxNjQ0NTY2
-NjYxLC0xMjA2ODE1NDM4LDEyOTg2OTgzNCw2ODU3NTQ5NzksMT
-MxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
+eyJoaXN0b3J5IjpbNjI0ODQ1NTU3LDE1MzczODYwMzEsMjAxNj
+UzMzE3MCwxODAzMTc0MjIyLC0xOTAzNjA0MTAxLC02NjQ1OTgy
+NDEsMTY0NDU2NjY2MSwtMTIwNjgxNTQzOCwxMjk4Njk4MzQsNj
+g1NzU0OTc5LDEzMTY4Mzk2NjYsMTc0NTY3NTU2NF19
 -->
