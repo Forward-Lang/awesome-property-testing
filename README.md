@@ -38,14 +38,25 @@ For example, when testing a queue, a property might be that the size of the queu
 
 ### Numbers
 
-#### Addition (+)
-
+- **Arithmetic Operations**:
+- Addition (`+`)
 - **Commutative**: $a + b = b + a$.
 - **Associative**: $(a + b) + c = a + (b + c)$.  
 - **Identity**: The identity element is 0: $a + 0 = a$.
 - **Inverse**: For any $a$, the additive inverse is $-a$: $a + (-a) = 0$.
 - **Idempotent**: No.  $a + a \neq a$ unless $a = 0$.
 - **Closure**: Yes.  For any $a, b$ in the set of real numbers $\mathbb{R}$, $a + b$ is also in $\mathbb{R}$.
+- Subtraction (`-`)
+- Multiplication (`*`)
+- Division (`/`)
+- Floor Division (`//`)
+- Modulus (`%`)
+- Exponentiation (`**`)
+
+
+
+#### Addition (+)
+
 
 #### Subtraction (-)
 
@@ -96,14 +107,6 @@ For example, when testing a queue, a property might be that the size of the queu
 | **Symmetric**    | No           | No               | No                  | No           |
 | **Transitive**   | N/A          | N/A              | N/A                 | N/A          |
 
-- **Arithmetic Operations**:
-  - Addition (`+`)
-  - Subtraction (`-`)
-  - Multiplication (`*`)
-  - Division (`/`)
-  - Floor Division (`//`)
-  - Modulus (`%`)
-  - Exponentiation (`**`)
   
 ### 2. **Strings**:
 - **Basic Operations**:
@@ -194,6 +197,6 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5ODY5ODM0LDY4NTc1NDk3OSwxMzE2OD
-M5NjY2LDE3NDU2NzU1NjRdfQ==
+eyJoaXN0b3J5IjpbODA2NTE4MDI0LDEyOTg2OTgzNCw2ODU3NT
+Q5NzksMTMxNjgzOTY2NiwxNzQ1Njc1NTY0XX0=
 -->
