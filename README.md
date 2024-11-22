@@ -100,31 +100,25 @@ For example, when testing a queue, a property might be that the size of the queu
 	- **Identity**: Yes.  The identity element is the empty string $\epsilon$: $s + \epsilon = s$.
 	- **Inverse**: No.  There’s no general inverse operation for concatenation (you can't uniquely undo concatenation without extra context).
 	- **Closure**: Yes.  If $s_1$ and $s_2$ are strings, $s_1 + s_2$ is also a string.
- - Repetition (`*`)
- - Slicing (`str[start:end]`)
+ - Repetition (`*`): Repetition creates a new string by repeating a base string $s$ $n$-times (e.g., $s * n$).
+	- **Commutative**: No.  $s * n \neq n * s$.  Example: "a" * 3 = "aaa", but 3 * "a" is undefined in most languages.
+	- **Distributive**: No.  Repetition doesn’t distribute over addition or concatenation. Example: $(s_1 + s_2) * n \neq (s_1 * n) + (s_2 * n)$.
+	- **Identity**: Yes.  The identity element is 1: $s * 1 = s$.
+	- **Inverse**: No.  There is no universal way to "undo" repetition without ambiguity.
+	- **Closure**: Yes.  Repeating a string $s$ $n$-times results in another string.
+	- **Absorption**: Yes (in a specific sense).  Repetition by 0 results in the empty string: $s * 0 = \epsilon$.
+ - Slicing (`str[start:end]`): Slicing extracts a sub-string from a given string.
+	- **Commutative**: No.  The order of indices matters: $s[1:3] \neq s[3:1]$ (and reversing indices is often invalid).
+	- **Identity**: Yes.  The identity slice is $[:]$, which returns the whole string: $s[:] = s$.
+	- **Inverse**: No.  Slicing cannot be reversed unless the original context is known.
+	- **Idempotent**: Yes.  Reapplying the same slice gives the same result: $s[1:3][0:2] = s[1:3]$.
+	- **Closure**: Yes.  A slice of a string is always a string.
  - Length (`len()`)
 
     
-### **2. Repetition (\∗\*)**
-
-Repetition creates a new string by repeating a base string $s$ $n$-times (e.g., $s * n$).
-
-- **Commutative**: No.  $s * n \neq n * s$.  Example: "a" * 3 = "aaa", but 3 * "a" is undefined in most languages.
-- **Distributive**: No.  Repetition doesn’t distribute over addition or concatenation. Example: $(s_1 + s_2) * n \neq (s_1 * n) + (s_2 * n)$.
-- **Identity**: Yes.  The identity element is 1: $s * 1 = s$.
-- **Inverse**: No.  There is no universal way to "undo" repetition without ambiguity.
-- **Closure**: Yes.  Repeating a string $s$ $n$-times results in another string.
-- **Absorption**: Yes (in a specific sense).  Repetition by 0 results in the empty string: $s * 0 = \epsilon$.
         
-### **3. Slicing ([start:end])**
 
-Slicing extracts a sub-string from a given string.
 
-- **Commutative**: No.  The order of indices matters: $s[1:3] \neq s[3:1]$ (and reversing indices is often invalid).
-- **Identity**: Yes.  The identity slice is $[:]$, which returns the whole string: $s[:] = s$.
-- **Inverse**: No.  Slicing cannot be reversed unless the original context is known.
-- **Idempotent**: Yes.  Reapplying the same slice gives the same result: $s[1:3][0:2] = s[1:3]$.
-- **Closure**: Yes.  A slice of a string is always a string.
         
 ### **4. Length ($len(s)$)**
 
@@ -212,7 +206,7 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMwNzYzODk2NSwxODAzMTc0MjIyLC0xOT
+eyJoaXN0b3J5IjpbMTk2NzQ3Nzg5MiwxODAzMTc0MjIyLC0xOT
 AzNjA0MTAxLC02NjQ1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgx
 NTQzOCwxMjk4Njk4MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMT
 c0NTY3NTU2NF19
