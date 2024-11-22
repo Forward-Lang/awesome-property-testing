@@ -126,15 +126,13 @@ Slicing extracts a sub-string from a given string.
 - **Idempotent**: Yes.  Reapplying the same slice gives the same result: $s[1:3][0:2] = s[1:3]$.
 - **Closure**: Yes.  A slice of a string is always a string.
         
-### **4. Length (len(s)len(s))**
+### **4. Length ($len(s)$)**
 
 Length calculates the number of characters in a string.
 
-- **Distributive**: No.  
-    Length doesn’t distribute over concatenation or slicing: len(s1+s2)=len(s1)+len(s2)len(s_1 + s_2) = len(s_1) + len(s_2), but this isn’t distribution in a strict sense.
+- **Distributive**: No.  Length doesn’t distribute over concatenation or slicing: $len(s_1 + s_2) = len(s_1) + len(s_2)$, but this isn’t distribution in a strict sense.
     
-- **Identity**: Yes.  
-    len(ϵ)=0len(\epsilon) = 0.
+- **Identity**: Yes.  len(ϵ)=0$len(\epsilon) = 0.
     
 - **Idempotent**: Yes.  
     Reapplying the length operation gives the same result: len(len(s))=len(s)len(len(s)) = len(s).
@@ -219,8 +217,8 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwMzE3NDIyMiwtMTkwMzYwNDEwMSwtNj
-Y0NTk4MjQxLDE2NDQ1NjY2NjEsLTEyMDY4MTU0MzgsMTI5ODY5
-ODM0LDY4NTc1NDk3OSwxMzE2ODM5NjY2LDE3NDU2NzU1NjRdfQ
-==
+eyJoaXN0b3J5IjpbMTk2OTIyMjc4NCwxODAzMTc0MjIyLC0xOT
+AzNjA0MTAxLC02NjQ1OTgyNDEsMTY0NDU2NjY2MSwtMTIwNjgx
+NTQzOCwxMjk4Njk4MzQsNjg1NzU0OTc5LDEzMTY4Mzk2NjYsMT
+c0NTY3NTU2NF19
 -->
