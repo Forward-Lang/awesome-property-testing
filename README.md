@@ -61,48 +61,21 @@ For example, when testing a queue, a property might be that the size of the queu
 - **Identity**: Yes.  
    The identity element is 0: $$a - 0 = a$$.
 
-- **Inverse**: Yes.  
-   Subtraction is essentially addition with the additive inverse: $$a - b = a + (-b)$$.
-
-- **Idempotent**: No.  
-   $$a - a = 0$$, so the result is not $$a$$.
-
-- **Closure**: Yes.  
-   For any $$a, b$$ in $$\mathbb{R}$$, $$a - b$$ is in $$\mathbb{R}$$.
-
-- **Symmetric**: No.  
-   Subtraction is not symmetric because $$a - b \neq b - a$$.
+- **Inverse**: Yes.  Subtraction is essentially addition with the additive inverse: $$a - b = a + (-b)$$.
+- **Idempotent**: No.  $$a - a = 0$$, so the result is not $$a$$.
+- **Closure**: Yes.  For any $$a, b$$ in $$\mathbb{R}$$, $$a - b$$ is in $$\mathbb{R}$$.
+- **Symmetric**: No.  Subtraction is not symmetric because $$a - b \neq b - a$$.
 
 #### Multiplication (\(*\))
 
-- **Commutative**: Yes.  
-   $$a \cdot b = b \cdot a$$.
-
-- **Associative**: Yes.  
-   $$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$.
-
-3. **Distributive**: Yes (over addition and subtraction).  
-   $$a \cdot (b + c) = a \cdot b + a \cdot c$$.
-
-4. **Identity**: Yes.  
-   The identity element is 1: $$a \cdot 1 = a$$.
-
-5. **Inverse**: Yes (for nonzero elements).  
-   The multiplicative inverse of $$a \neq 0$$ is $$1/a$$: $$a \cdot (1/a) = 1$$.
-
-6. **Idempotent**: No.  
-   $$a \cdot a \neq a$$ unless $$a = 0$$ or $$a = 1$$.
-
-7. **Closure**: Yes.  
-   For $$a, b \in \mathbb{R}$$, $$a \cdot b \in \mathbb{R}$$.
-
-8. **Absorption**: Yes.  
-   The absorbing element is 0: $$a \cdot 0 = 0$$.
-
-9. **Symmetric**: No.  
-   Symmetry is not a property of multiplication.
-
-10. **Transitive**: Not applicable to multiplication as a binary operation.
+- **Commutative**: Yes.  $$a \cdot b = b \cdot a$$.
+- **Associative**: Yes.  $$(a \cdot b) \cdot c = a \cdot (b \cdot c)$$.
+- **Distributive**: Yes (over addition and subtraction).  $$a \cdot (b + c) = a \cdot b + a \cdot c$$.
+- **Identity**: Yes.  The identity element is 1: $$a \cdot 1 = a$$.
+- **Inverse**: Yes (for nonzero elements).  The multiplicative inverse of $$a \neq 0$$ is $$1/a$$: $$a \cdot (1/a) = 1$$.
+- **Idempotent**: No.  $$a \cdot a \neq a$$ unless $$a = 0$$ or $$a = 1$$.
+- **Closure**: Yes.  For $$a, b \in \mathbb{R}$$, $$a \cdot b \in \mathbb{R}$$.
+- **Absorption**: Yes.  The absorbing element is 0: $$a \cdot 0 = 0$$.
 
 #### Division (/)
 
@@ -245,6 +218,6 @@ Here are some popular property testing libraries that can help you get started i
 
 Feel free to contribute any other libraries you use for property testing!
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA5MTU0MTcsMTMxNjgzOTY2NiwxNz
-Q1Njc1NTY0XX0=
+eyJoaXN0b3J5IjpbOTM5MTI5OTAxLDEzMTY4Mzk2NjYsMTc0NT
+Y3NTU2NF19
 -->
